@@ -1,5 +1,5 @@
 <?php
-$f = file_get_contents(__DIR__ . '/base.txt');
+$f = file_get_contents("C:\\Users\\K03027\\Buzz\\procurement\\government_procurement_act-gh-pages\\base.txt");
 $lines = explode("\n", $f);
 $headerBegin = false;
 $headerCount = 0;
